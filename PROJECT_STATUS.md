@@ -34,3 +34,8 @@ All project files backed up to: **github.com/Dinesrao92/kurai-illa-durai** (priv
   "Naan Maaran! Johor-lendhu KL vandhavan da. Indha kadhaila villain naan dhaan, heh heh! ..."
 - Style shift: characters may self-introduce on their cards (instead of Durai narrating all)
 - Expected uploads: durai_final/ (D01-D09), maaran_final/ (M_intro, M01-M03)
+
+## Maaran final voice UPLOADED (ElevenLabs) - LOCKED
+- maaran_final/: M_intro (7.1s card), M00 roll call (15.9s), M01 entry (14.9s), M02 reveal (15.4s), M03 rage (10.1s)
+- Old voice-18 clips in tamil_drama/final_cast/ (M01-M03) now SUPERSEDED
+- Remaining: durai_final/ D01-D09
