@@ -17,3 +17,10 @@ All project files backed up to: **github.com/Dinesrao92/kurai-illa-durai** (priv
 - NEW: tamil_drama/part1_v3/ — clean no-text character intro shots (signature actions):
   Durai=teh tarik at mamak, Kavin=garland stall, Maaran=car arrival + ANIMATED_INTRO_GUIDE.md
 - Labels removed (no 'Loyal Thambi' / 'Snake from Johor' taglines) — narration-only intros
+
+## FINAL CAST LOCKED (Part 1)
+- DURAI = ElevenLabs custom voice (user-generated; locked ref: durai_voice/tests/durai_el_test2_LOCKED.mp3)
+  - Line sheet: durai_voice/DURAI_LINE_SHEET.md (D01-D09) - user to batch-generate -> upload to durai_final/
+- KAVIN = voice-13 | MAARAN = voice-18 (deliveries: Maaran A1 venom / B1 rage)
+- tamil_drama/final_cast/ = final Kavin (K01-K03) + Maaran (M01-M03) recordings
+- Old voice history: v1 (00/01/02), v2 (05/04/02) - superseded
