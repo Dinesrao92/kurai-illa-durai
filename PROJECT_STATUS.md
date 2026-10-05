@@ -24,3 +24,7 @@ All project files backed up to: **github.com/Dinesrao92/kurai-illa-durai** (priv
 - KAVIN = voice-13 | MAARAN = voice-18 (deliveries: Maaran A1 venom / B1 rage)
 - tamil_drama/final_cast/ = final Kavin (K01-K03) + Maaran (M01-M03) recordings
 - Old voice history: v1 (00/01/02), v2 (05/04/02) - superseded
+
+## Cast correction
+- KAVIN = voice-26 (Arena TTS, locked) — K01-K03 re-recorded with voice-26 (replaces voice-13 takes)
+- Final cast: DURAI = ElevenLabs custom (pending D01-D09 upload to durai_final/) | KAVIN = voice-26 | MAARAN = voice-18
