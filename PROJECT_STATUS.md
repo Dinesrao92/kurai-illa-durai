@@ -28,3 +28,9 @@ All project files backed up to: **github.com/Dinesrao92/kurai-illa-durai** (priv
 ## Cast correction
 - KAVIN = voice-26 (Arena TTS, locked) — K01-K03 re-recorded with voice-26 (replaces voice-13 takes)
 - Final cast: DURAI = ElevenLabs custom (pending D01-D09 upload to durai_final/) | KAVIN = voice-26 | MAARAN = voice-18
+
+## Character intro structure update
+- MAARAN intro card audio = M_intro (self-introduction, user generating on ElevenLabs):
+  "Naan Maaran! Johor-lendhu KL vandhavan da. Indha kadhaila villain naan dhaan, heh heh! ..."
+- Style shift: characters may self-introduce on their cards (instead of Durai narrating all)
+- Expected uploads: durai_final/ (D01-D09), maaran_final/ (M_intro, M01-M03)
