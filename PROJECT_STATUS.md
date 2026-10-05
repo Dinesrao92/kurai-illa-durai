@@ -11,3 +11,9 @@ All project files backed up to: **github.com/Dinesrao92/kurai-illa-durai** (priv
 ## Pending
 - Kavin scene 11 joke line re-record (voice-04)
 - Part 2 "Aarambam" recording + frames (script in repo)
+
+## Update (Part 1 rework)
+- Part 2 ON HOLD by director's decision — Part 1 improvements in progress
+- NEW: tamil_drama/part1_v3/ — clean no-text character intro shots (signature actions):
+  Durai=teh tarik at mamak, Kavin=garland stall, Maaran=car arrival + ANIMATED_INTRO_GUIDE.md
+- Labels removed (no 'Loyal Thambi' / 'Snake from Johor' taglines) — narration-only intros
