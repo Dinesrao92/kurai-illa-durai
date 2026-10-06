@@ -1,6 +1,6 @@
 # 🎬 KURAI ILLA, DURAI
 ### Master Screenplay — Part 1
-**Status:** Scenes 1–3 FINAL / Story direction LOCKED
+**Status:** Scenes 1–4 FINAL / Story direction LOCKED
 **Setting:** Brickfields, Kuala Lumpur
 **Language:** Malaysian Tamil / Thanglish
 
@@ -1051,6 +1051,554 @@ Durai continues making the garland.
 The radio plays softly.
 
 Flowers move gently in the morning breeze.
+
+### CUT TO BLACK.
+
+---
+
+# SCENE 4 — THE FIRST MOVE
+
+### EXT. BRICKFIELDS — AFTERNOON
+
+The afternoon crowd has taken over the streets.
+
+Buses.
+
+Motorcycles.
+
+People rushing between shops.
+
+The flower stalls are busy.
+
+Kavin carries two large baskets of flowers from one shop to another.
+
+He stops outside a small **MAMAK SHOP**.
+
+A familiar face—
+
+**RAHIM — early 40s.**
+
+The shop owner.
+
+He sees Kavin.
+
+**RAHIM**
+Kavin! Dei!
+
+Kavin turns.
+
+**KAVIN**
+Enna?
+
+Rahim points at the flowers.
+
+**RAHIM**
+Inga vechuttu po. Customer-ku maalai venum.
+
+Kavin puts the flowers down.
+
+**KAVIN**
+Cash ready-aa?
+
+Rahim laughs.
+
+**RAHIM**
+Unakku mattum dhaan cash mukkiyam.
+
+**KAVIN**
+Durai anna-ku account correct venum.
+
+Rahim shakes his head.
+
+**RAHIM**
+Nee avan maadhiriye pesura.
+
+Kavin smiles.
+
+**KAVIN**
+Adhaan problem.
+
+They laugh.
+
+Across the road—
+
+A BLACK CAR slowly passes.
+
+Inside are two men.
+
+The passenger looks toward Rahim's shop.
+
+Then toward the flower stalls.
+
+Then continues watching.
+
+The car disappears.
+
+Kavin doesn't notice.
+
+---
+
+### INT. RAHIM'S MAMAK SHOP — LATER
+
+Rahim is serving customers.
+
+Two MEN walk inside.
+
+Not local.
+
+Different.
+
+They sit at a corner table.
+
+One puts a small envelope on the table.
+
+Rahim approaches.
+
+**RAHIM**
+Enna venum?
+
+The man opens the envelope.
+
+Cash.
+
+**MAN**
+Monthly.
+
+Rahim looks at the money.
+
+Doesn't touch it.
+
+**RAHIM**
+Yaarukku?
+
+The man smiles.
+
+**MAN**
+Maaran anna.
+
+Rahim's face changes.
+
+**RAHIM**
+Naan already—
+
+**MAN**
+Already yaarukku?
+
+Rahim doesn't answer.
+
+The man leans back.
+
+**MAN**
+Inimey Brickfields-la business panna... Maaran anna-ku theriyanum.
+
+Rahim looks around.
+
+Customers are listening.
+
+He lowers his voice.
+
+**RAHIM**
+Naan small kadai dhaan.
+
+**MAN**
+Small kadai-na small problem-nu artham illa.
+
+The second man quietly looks around the shop.
+
+**MAN**
+Kaasu kudutha problem illa.
+
+Rahim looks at the envelope.
+
+**RAHIM**
+Kudukkala-na?
+
+The man smiles.
+
+**MAN**
+Problem varum.
+
+They stand.
+
+Leave the envelope.
+
+Walk out.
+
+Rahim remains standing.
+
+---
+
+### EXT. RAHIM'S MAMAK SHOP — CONTINUOUS
+
+The two men walk toward their motorcycle.
+
+Suddenly—
+
+**KAVIN (O.S.)**
+Rahim anna!
+
+They stop.
+
+Kavin approaches carrying flowers.
+
+He looks at the two men.
+
+Then at the envelope in Rahim's hand.
+
+**KAVIN**
+Enna?
+
+Rahim quickly hides the envelope.
+
+**RAHIM**
+Onnum illa.
+
+Kavin looks at him.
+
+Doesn't believe him.
+
+But doesn't push.
+
+**KAVIN**
+Seri.
+
+He hands Rahim the flowers.
+
+**KAVIN**
+Idha fridge-la vechuko. Illana evening-ku spoil aagidum.
+
+Rahim nods.
+
+Kavin walks away.
+
+The two men watch him.
+
+One of them quietly asks:
+
+**MAN #2**
+Ivan yaaru?
+
+Rahim answers without thinking.
+
+**RAHIM**
+Durai anna oda paiyan maadhiri.
+
+The men look at each other.
+
+---
+
+### EXT. DURAI'S GARLAND SHOP — EVENING
+
+The sun is going down.
+
+Durai sits behind the counter making garlands.
+
+Kavin arrives.
+
+Puts the empty baskets down.
+
+**KAVIN**
+Anna.
+
+Durai keeps working.
+
+**DURAI**
+Sollu.
+
+**KAVIN**
+Rahim kadaikku rendu peru vandhirundhaanga.
+
+Durai's hands continue moving.
+
+**DURAI**
+Yaaru?
+
+**KAVIN**
+Maaran side.
+
+Durai pauses.
+
+Just for a second.
+
+Then continues making the garland.
+
+**DURAI**
+Enna venum?
+
+**KAVIN**
+Kaasu.
+
+Durai looks up.
+
+**KAVIN**
+Monthly.
+
+A beat.
+
+**DURAI**
+Rahim kuduthaana?
+
+**KAVIN**
+Theriyala.
+
+Durai puts the flowers down.
+
+Stands.
+
+Takes his old sandals.
+
+**KAVIN**
+Enga poringa?
+
+**DURAI**
+Rahim-a paakka.
+
+Kavin immediately stands.
+
+**KAVIN**
+Naanum varen.
+
+Durai looks at him.
+
+**DURAI**
+Nee kadaiya paaru.
+
+**KAVIN**
+Anna—
+
+**DURAI**
+Kavin.
+
+A beat.
+
+**DURAI**
+Kadaiya paaru.
+
+Kavin nods.
+
+**KAVIN**
+Seri, Durai anna.
+
+Durai walks away.
+
+---
+
+### INT. RAHIM'S MAMAK SHOP — EVENING
+
+The shop is quieter now.
+
+Rahim sees Durai enter.
+
+His face immediately changes.
+
+**RAHIM**
+Durai anna...
+
+Durai sits.
+
+No anger.
+
+No drama.
+
+**DURAI**
+Enna aachu?
+
+Rahim hesitates.
+
+Durai notices the envelope.
+
+**DURAI**
+Adhu enna?
+
+Rahim takes it out.
+
+Places it on the table.
+
+**RAHIM**
+Maaran side-la irundhu.
+
+Durai looks at the envelope.
+
+Doesn't touch it.
+
+**DURAI**
+Evlo?
+
+Rahim tells him.
+
+Durai nods.
+
+**RAHIM**
+Anna... naan kuduthuruven.
+
+Durai looks at him.
+
+**DURAI**
+Yen?
+
+Rahim doesn't answer.
+
+**DURAI**
+Nee thappu pannitiya?
+
+Rahim shakes his head.
+
+**DURAI**
+Illegal business pannariya?
+
+**RAHIM**
+Illa anna.
+
+**DURAI**
+Appo yen kaasu kudukkanum?
+
+Rahim looks down.
+
+**RAHIM**
+Bayama irukku.
+
+Durai leans back.
+
+A quiet moment.
+
+Then—
+
+**DURAI**
+Bayam irukkaradhu thappu illa.
+
+Rahim looks up.
+
+**DURAI**
+Bayathukku kaasu kudukkaradhu dhaan thappu.
+
+Durai pushes the envelope back.
+
+**DURAI**
+Idha thiruppi anuppu.
+
+Rahim looks worried.
+
+**RAHIM**
+Anna... avanga summa vida maataanga.
+
+Durai stands.
+
+**DURAI**
+Avanga unnai touch panna...
+
+Beat.
+
+Durai looks directly at him.
+
+**DURAI**
+Appo naan pesuren.
+
+That's all.
+
+No threat.
+
+No shouting.
+
+Rahim understands.
+
+---
+
+### EXT. BRICKFIELDS STREET — NIGHT
+
+Durai walks alone.
+
+He passes shops.
+
+People greet him.
+
+He nods.
+
+From across the road—
+
+The same two men from earlier watch him.
+
+One takes out his phone.
+
+**MAN**
+Maaran anna...
+
+He watches Durai disappear into the crowd.
+
+**MAN**
+Durai interfere panraan.
+
+A pause.
+
+He listens.
+
+His expression changes.
+
+**MAN**
+Seri.
+
+He hangs up.
+
+Looks at his partner.
+
+**MAN**
+Naalaikku vera kadai.
+
+They walk away.
+
+---
+
+### INT. MAARAN'S CAR — NIGHT
+
+Maaran sits in the back seat.
+
+The city lights pass across his face.
+
+His phone rings.
+
+He answers.
+
+**MAARAN**
+Sollu.
+
+**MAN (V.O.)**
+Durai interfere panraan.
+
+Maaran looks out the window.
+
+A small smile.
+
+**MAARAN**
+Interfere-aa?
+
+Beat.
+
+**MAARAN**
+Avanukku Brickfields mela romba paasam pola.
+
+The man says something.
+
+Maaran listens.
+
+Then—
+
+**MAARAN**
+Parava illa.
+
+He looks ahead.
+
+**MAARAN**
+Paasam irukkattum.
+
+A beat.
+
+His smile disappears.
+
+**MAARAN**
+Paasam irukkura edathula dhaan bayam easy-aa work aagum.
+
+He ends the call.
+
+The car continues through the night.
 
 ### CUT TO BLACK.
 
