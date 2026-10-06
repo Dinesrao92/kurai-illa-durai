@@ -1,6 +1,6 @@
 # 🎬 KURAI ILLA, DURAI
 ### Master Screenplay — Part 1
-**Status:** Scenes 1–2 FINAL / Story direction LOCKED
+**Status:** Scenes 1–3 FINAL / Story direction LOCKED
 **Setting:** Brickfields, Kuala Lumpur
 **Language:** Malaysian Tamil / Thanglish
 
@@ -31,9 +31,10 @@
 
 ### MAARAN
 - The apparent main villain of Part 1.
-- A powerful crime boss with a large gang network.
+- A powerful crime boss from **Johor** with a large gang network extending into Kuala Lumpur.
 - Involved in drugs, smuggling, murder and other serious criminal activity.
 - Uses fear, money and violence to control people.
+- He is expanding his operation from Johor into Brickfields.
 - He believes Durai is an outdated gangster whose influence can be taken over.
 - **Important Part 1 twist:** Maaran is not the true top of the criminal organisation.
 
@@ -689,6 +690,367 @@ Durai watches him.
 A small smile.
 
 The kind only a father would have.
+
+### CUT TO BLACK.
+
+---
+
+# SCENE 3 — MAARAN'S WORLD
+
+### INT. ABANDONED GODOWN — NIGHT
+
+A large old godown somewhere outside Brickfields.
+
+Not the kind of place people accidentally walk into.
+
+A flickering fluorescent tube.
+
+Men moving boxes.
+
+Motorcycles coming in and out.
+
+Phones ringing.
+
+Nobody is smiling.
+
+A VAN reverses into the loading area.
+
+Its rear doors open.
+
+Two MEN unload taped cardboard boxes.
+
+A third man checks a handwritten list.
+
+He stops.
+
+Counts again.
+
+**MAN #3**
+Rendu box missing.
+
+The WORKER beside him immediately looks nervous.
+
+**WORKER**
+Anna... driver sonnaan full-aa load pannitaaru.
+
+A voice comes from behind them.
+
+**MAARAN (O.S.)**
+Driver sonnaan-aa?
+
+Everyone goes quiet.
+
+They turn.
+
+MAARAN walks in.
+
+Late 40s.
+
+Clean shirt.
+
+Expensive watch.
+
+No unnecessary show.
+
+He doesn't look like the loudest man in the room.
+
+He looks like the man everyone is afraid to disappoint.
+
+Maaran walks toward the worker.
+
+**MAARAN**
+Enna sonnaan?
+
+**WORKER**
+Full load anna.
+
+Maaran grabs him by the collar.
+
+SLAMS him against the van.
+
+The boxes shake.
+
+**MAARAN**
+Appo rendu box enga?
+
+The worker says nothing.
+
+Maaran lets go.
+
+Looks at the boxes.
+
+Then at his men.
+
+**MAARAN**
+Driver-a koopdu.
+
+One of the men immediately takes out his phone.
+
+Maaran walks toward a wooden table.
+
+On it—
+
+A small plastic packet.
+
+He picks it up.
+
+Looks at it.
+
+**MAARAN**
+Idhu Brickfields poganum.
+
+One of his men hesitates.
+
+**MAN #2**
+Durai side-la?
+
+Maaran looks up.
+
+A small smile.
+
+**MAARAN**
+Durai side-nu onnum illa.
+
+Beat.
+
+**MAARAN**
+Brickfields-la ippo yaaru side-nu decide pannradhu naan.
+
+Silence.
+
+Maaran puts the packet down.
+
+Then, almost casually—
+
+**MAARAN**
+Aana...
+
+He looks at the men.
+
+**MAARAN**
+Durai anna-ku konjam mariyadhai kudunga.
+
+The men exchange looks.
+
+**MAN #2**
+Mariyaadhai-aa?
+
+Maaran nods.
+
+**MAARAN**
+Avan old man.
+
+Beat.
+
+**MAARAN**
+Aana old man-na useless-nu artham illa.
+
+He turns and walks away.
+
+---
+
+### EXT. GODOWN — CONTINUOUS
+
+Several vehicles are waiting.
+
+One of them is a black MPV.
+
+Maaran walks toward it.
+
+Before he gets in—
+
+His phone rings.
+
+He answers.
+
+**MAARAN**
+Sollu.
+
+We don't hear the voice on the other end.
+
+Maaran listens.
+
+His expression changes slightly.
+
+**MAARAN**
+Brickfields matter-aa?
+
+A beat.
+
+**MAARAN**
+Naan handle pannikiren.
+
+Another pause.
+
+**MAARAN**
+Seri.
+
+He hangs up.
+
+Gets into the MPV.
+
+The vehicles leave one after another.
+
+The last motorcycle disappears into the darkness.
+
+---
+
+### INT. DURAI'S GARLAND SHOP — NEXT MORNING
+
+Morning sunlight.
+
+Flowers everywhere.
+
+A small radio plays in the background.
+
+Kavin sits behind the counter counting money.
+
+He counts once.
+
+Stops.
+
+Counts again.
+
+**KAVIN**
+Aiyo...
+
+Durai looks up from the flowers.
+
+**KAVIN**
+Anna...
+
+Durai doesn't answer.
+
+**KAVIN**
+Durai anna...
+
+**DURAI**
+Enna?
+
+Kavin holds up the cash.
+
+**KAVIN**
+Kaasu short.
+
+Durai holds out his hand.
+
+Kavin gives him the money.
+
+Durai counts.
+
+Once.
+
+Twice.
+
+Then separates a few notes.
+
+**DURAI**
+Idhu inga.
+
+He puts them aside.
+
+**DURAI**
+Idhu vera order.
+
+Kavin looks.
+
+Counts again.
+
+His face changes.
+
+**KAVIN**
+Oh...
+
+Durai looks at him.
+
+**DURAI**
+Nee thappaa count pannirukka.
+
+Kavin looks offended.
+
+**KAVIN**
+Naan-aa?
+
+Durai goes back to the flowers.
+
+**DURAI**
+Nee dhaane count panna.
+
+Kavin looks at the money.
+
+Then at Durai.
+
+**KAVIN**
+Paathiya? Correct dhaane?
+
+Durai doesn't look up.
+
+**DURAI**
+Naan sonna apram correct aagiduchu.
+
+Kavin sighs.
+
+**KAVIN**
+Durai anna...
+
+A CUSTOMER walks in.
+
+**CUSTOMER**
+Rendu maalai venum.
+
+Durai immediately gets up.
+
+**DURAI**
+Enna colour?
+
+They begin talking about flowers.
+
+Outside—
+
+Across the road—
+
+A motorcycle is parked.
+
+Two MEN sit on it.
+
+Watching the shop.
+
+One speaks quietly into his phone.
+
+**MAN ON MOTORCYCLE**
+Avan inga dhaan irukkaan.
+
+A beat.
+
+He looks at Kavin.
+
+**MAN ON MOTORCYCLE**
+Kavin-um irukkaan.
+
+He listens.
+
+**MAN ON MOTORCYCLE**
+Seri.
+
+He hangs up.
+
+The motorcycle starts.
+
+Leaves.
+
+Inside the shop—
+
+Kavin briefly looks toward the road.
+
+The motorcycle is already gone.
+
+He says nothing.
+
+Durai continues making the garland.
+
+The radio plays softly.
+
+Flowers move gently in the morning breeze.
 
 ### CUT TO BLACK.
 
