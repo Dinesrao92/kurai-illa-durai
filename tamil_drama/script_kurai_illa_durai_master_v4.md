@@ -1,6 +1,6 @@
 # 🎬 KURAI ILLA, DURAI
 ### Master Screenplay — Part 1
-**Status:** Scene 1 FINAL / Story direction LOCKED
+**Status:** Scenes 1–2 FINAL / Story direction LOCKED
 **Setting:** Brickfields, Kuala Lumpur
 **Language:** Malaysian Tamil / Thanglish
 
@@ -27,6 +27,7 @@
 - Unknown to everyone, Kavin spends **six months undercover inside Maaran's organisation**.
 - His undercover mission is to expose and trap Maaran's criminal network.
 - The audience should not know about the six-month undercover operation until the climax.
+- Kavin always addresses Durai as **"Durai Anna"** or **"Anna"**. He never calls him "Appa".
 
 ### MAARAN
 - The apparent main villain of Part 1.
@@ -353,6 +354,343 @@ Something deeper.
 ### MUSIC RISES.
 
 **TEN YEARS EARLIER...**
+
+---
+
+# SCENE 2 — TEN YEARS EARLIER
+
+### EXT. BRICKFIELDS — NIGHT — 10 YEARS AGO
+
+Rain.
+
+Not heavy.
+
+But enough to make the streets shine under the yellow streetlights.
+
+Most of the shops are closed.
+
+Durai walks alone.
+
+A small bundle of unsold flowers hangs from his hand.
+
+He is younger now.
+
+**DURAI — late 40s.**
+
+He hears something.
+
+A noise behind a row of rubbish bins.
+
+Durai stops.
+
+Looks.
+
+Nothing.
+
+He takes another step.
+
+A BOY suddenly runs out.
+
+About fifteen.
+
+Thin.
+
+Soaked.
+
+Dirty.
+
+Barefoot.
+
+He is holding half a piece of bread.
+
+Durai grabs his wrist.
+
+The boy struggles.
+
+Durai looks at him.
+
+Then lets go.
+
+The boy takes a few steps back.
+
+Ready to run again.
+
+**DURAI**
+Thiruduniya?
+
+The boy says nothing.
+
+Durai looks at the bread.
+
+Then at him.
+
+**DURAI**
+Saaptiya?
+
+The boy slowly shakes his head.
+
+Durai opens the food packet he was carrying.
+
+He takes out some food.
+
+Places it on the wall beside the boy.
+
+**DURAI**
+Saapidu.
+
+Durai turns and walks away.
+
+The boy watches him.
+
+After a moment—
+
+He takes the food.
+
+### LATER
+
+### EXT. SHOP AWNING — NIGHT
+
+The rain continues.
+
+The boy sits under the awning, eating.
+
+Durai is still there.
+
+He looks at him.
+
+**DURAI**
+Peru enna?
+
+The boy looks up.
+
+**BOY**
+Kavin.
+
+Durai nods.
+
+**DURAI**
+Veetla yaaru irukka?
+
+Silence.
+
+**DURAI**
+Amma?
+
+Kavin looks down.
+
+**DURAI**
+Appa?
+
+Nothing.
+
+Durai understands.
+
+He doesn't ask again.
+
+A long beat.
+
+**DURAI**
+Innikki enga thoonguva?
+
+Kavin shrugs.
+
+Durai stands.
+
+Starts walking.
+
+Kavin looks at him.
+
+**KAVIN**
+Enga?
+
+Durai looks back.
+
+**DURAI**
+En veetukku.
+
+Kavin doesn't move.
+
+Durai waits.
+
+Finally, Kavin follows.
+
+---
+
+### INT. DURAI'S HOUSE — NIGHT
+
+A simple old house.
+
+Clean.
+
+Quiet.
+
+Not luxurious.
+
+Durai opens the door.
+
+Kavin stands outside, unsure.
+
+**DURAI**
+Ulla vaa.
+
+Kavin steps in.
+
+Durai points toward the bathroom.
+
+**DURAI**
+Poi kulichittu vaa.
+
+He takes out an old shirt.
+
+Hands it to Kavin.
+
+It is too big for him.
+
+**DURAI**
+Idha pottuko.
+
+Kavin looks at the shirt.
+
+A tiny smile.
+
+Durai turns away.
+
+**DURAI**
+Nalla valarnthuruva.
+
+---
+
+### LATER
+
+Kavin lies on a thin mattress.
+
+He looks around the unfamiliar room.
+
+Durai is about to leave.
+
+**KAVIN**
+Durai anna...
+
+Durai stops.
+
+Turns.
+
+**KAVIN**
+Naan inga irukkalaama?
+
+Durai looks at him.
+
+A quiet moment.
+
+**DURAI**
+Inimey nee enga poganum-nu yosikka thevai illa.
+
+Kavin looks down.
+
+For the first time, he relaxes.
+
+Durai switches off the light.
+
+---
+
+### MONTAGE — THE NEXT TEN YEARS
+
+— Kavin sleeping on the same small mattress.
+
+— Durai teaching him how to make jasmine garlands.
+
+— Kavin drops an entire basket of flowers.
+
+Durai stares at him.
+
+Kavin smiles awkwardly.
+
+— Kavin learning to ride a motorcycle.
+
+He falls.
+
+Durai shakes his head.
+
+— Durai teaching Kavin how to count money.
+
+— Kavin getting his first proper haircut.
+
+— Durai handing Kavin the keys to the garland stall.
+
+— Kavin opening the stall early in the morning.
+
+— Kavin delivering garlands around Brickfields.
+
+— Durai and Kavin eating together at a roadside shop.
+
+— Kavin asleep in the passenger seat while Durai drives.
+
+— Kavin slowly becoming a young man.
+
+— Kavin standing beside Durai.
+
+No longer a boy.
+
+Not quite an equal.
+
+But getting there.
+
+---
+
+### EXT. BRICKFIELDS — PRESENT DAY — MORNING
+
+Kavin is now in his late 20s.
+
+He carries flower baskets through the same streets.
+
+A flower seller looks around.
+
+**FLOWER SELLER**
+Kavin... Durai anna enga?
+
+Kavin keeps walking.
+
+**KAVIN**
+Enna, anna-ku attendance poda sollriya?
+
+The seller laughs.
+
+Across the street, Durai watches him.
+
+Kavin notices.
+
+**KAVIN**
+Enna paakuringa?
+
+Durai smiles.
+
+**DURAI**
+Onnum illa.
+
+Kavin squints.
+
+**KAVIN**
+Appo yen sirikkiringa?
+
+Durai throws a garland at him.
+
+Kavin catches it.
+
+**DURAI**
+Velaiya paaru da.
+
+Kavin grins.
+
+**KAVIN**
+Seri, Durai anna.
+
+Durai watches him.
+
+A small smile.
+
+The kind only a father would have.
+
+### CUT TO BLACK.
 
 ---
 
