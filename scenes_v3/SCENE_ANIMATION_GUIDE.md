@@ -94,7 +94,15 @@ rising from teh tarik glasses, relaxed happy evening mood, camera gently
 pushes in, realistic movement, no text
 ```
 
-## SCENE 12 — Durai finale 👑 (audio: D09) — IMAGE COMING NEXT
+## SCENE 12 — Durai finale 👑 (audio: D09)
+Image: scene12_durai_finale.png
+```
+Powerful man stands in the rain-soaked street holding a black umbrella,
+light rain falling around him, neon reflections shimmering on the wet road,
+he looks into the camera with a calm knowing smile, slight slow nod of a
+king who won, camera slowly pulls back revealing the glowing street around
+him, realistic movement, no text
+```
 
 ---
 
