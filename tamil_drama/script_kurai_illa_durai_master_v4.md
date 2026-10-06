@@ -1602,6 +1602,563 @@ The car continues through the night.
 
 ### CUT TO BLACK.
 
+
+---
+
+# SCENE 5 — THE BOUNDARY
+
+### EXT. FLOWER MARKET — EARLY MORNING
+
+The flower market is already busy.
+
+Lorries unloading.
+
+Vendors shouting prices.
+
+Garlands being carried from one stall to another.
+
+Kavin moves through the crowd with two baskets.
+
+He stops.
+
+Something feels different.
+
+Three MEN are standing near the unloading area.
+
+One of them has a small notebook.
+
+He stops a flower vendor.
+
+**MAN**
+
+Weekly.
+
+The vendor looks confused.
+
+**VENDOR**
+
+Enna weekly?
+
+The man points toward the notebook.
+
+**MAN**
+
+Protection.
+
+The vendor looks around.
+
+**VENDOR**
+
+Yaaru?
+
+The man smiles.
+
+**MAN**
+
+Maaran anna.
+
+Kavin watches from a distance.
+
+He doesn't move.
+
+Another vendor is stopped.
+
+Then another.
+
+The same demand.
+
+Kavin's expression changes.
+
+---
+
+### INT. DURAI'S GARLAND SHOP — MORNING
+
+Durai is making garlands.
+
+Kavin enters.
+
+Puts the baskets down.
+
+**KAVIN**
+
+Anna.
+
+Durai doesn't look up.
+
+**DURAI**
+
+Sollu.
+
+**KAVIN**
+
+Market-la Maaran side weekly collect panraanga.
+
+Durai's hands stop.
+
+**DURAI**
+
+Yaar kitta?
+
+**KAVIN**
+
+Flower kadai ellam.
+
+Durai looks at him.
+
+**DURAI**
+
+Yaaravadhu kuduthaangala?
+
+**KAVIN**
+
+Bayandhu kudukka poraanga.
+
+Durai slowly puts the flowers down.
+
+**DURAI**
+
+Kaasu kudukka sollaadha.
+
+Kavin nods.
+
+**KAVIN**
+
+Avanga kekka maataangala?
+
+Durai looks at him.
+
+**DURAI**
+
+Ketta... naan pesuren.
+
+---
+
+### EXT. FLOWER MARKET — LATER
+
+Durai walks through the market.
+
+The vendors notice him.
+
+The three Maaran men are still collecting.
+
+One sees Durai.
+
+He smiles.
+
+**MAN**
+
+Durai anna.
+
+Durai stops.
+
+**DURAI**
+
+Sollu.
+
+The man closes his notebook.
+
+**MAN**
+
+Small collection dhaan.
+
+Durai looks around.
+
+**DURAI**
+
+Idhu flower market.
+
+**MAN**
+
+Theriyum.
+
+**DURAI**
+
+Appo flowers vaangittu po.
+
+The man laughs.
+
+**MAN**
+
+Maaran anna-ku konjam share.
+
+Durai steps closer.
+
+Not aggressive.
+
+Just enough.
+
+**DURAI**
+
+Share-aa?
+
+Beat.
+
+**DURAI**
+
+Avan inga flower viththaana?
+
+The man's smile fades.
+
+**MAN**
+
+Anna... order.
+
+Durai looks at the vendors.
+
+Then back at him.
+
+**DURAI**
+
+Order irundha... avan vandhu sollattum.
+
+A beat.
+
+**DURAI**
+
+Nee vara thevai illa.
+
+The man doesn't answer.
+
+Durai walks away.
+
+Kavin watches him.
+
+---
+
+### EXT. FLOWER MARKET — CONTINUOUS
+
+One of the younger vendors approaches Durai.
+
+**YOUNG VENDOR**
+
+Anna... naanga kudukkala-na problem varuma?
+
+Durai stops.
+
+Looks at him.
+
+**DURAI**
+
+Problem vandhaa... first enna theduvaanga?
+
+The boy thinks.
+
+**YOUNG VENDOR**
+
+Ungala?
+
+Durai gives a small smile.
+
+**DURAI**
+
+Appo nee yen bayapadra?
+
+The boy smiles nervously.
+
+Durai pats his shoulder.
+
+**DURAI**
+
+Kadai paaru.
+
+He walks away.
+
+---
+
+### NIGHT
+
+### EXT. BRICKFIELDS — FLOWER SUPPLY ROAD
+
+A flower lorry travels through a quiet road.
+
+Inside—
+
+The DRIVER hums along with the radio.
+
+Suddenly—
+
+A BLACK MPV cuts across the road.
+
+The lorry brakes hard.
+
+The driver opens his door.
+
+**DRIVER**
+
+Enna saar?
+
+One man takes the keys.
+
+Another opens the back.
+
+Flower baskets.
+
+Hundreds of them.
+
+**DRIVER**
+
+Anna... idhu Durai anna oda load.
+
+The man looks at him.
+
+**MAN**
+
+Theriyum.
+
+The men start throwing flower baskets onto the wet road.
+
+Jasmine.
+
+Roses.
+
+Marigolds.
+
+The flowers spill across the road.
+
+The driver watches helplessly.
+
+One man picks up a garland.
+
+Looks at it.
+
+Drops it into the mud.
+
+**MAN**
+
+Maaran anna-ku sollu.
+
+Beat.
+
+**MAN**
+
+Idhu first warning.
+
+They leave.
+
+The driver stands among the ruined flowers.
+
+---
+
+### INT. DURAI'S GARLAND SHOP — LATE NIGHT
+
+The shop is closed.
+
+Durai sits alone.
+
+The driver stands in front of him.
+
+His clothes are still wet.
+
+**DRIVER**
+
+Anna...
+
+He can't continue.
+
+Durai looks at him.
+
+**DURAI**
+
+Parava illa.
+
+The driver looks surprised.
+
+**DRIVER**
+
+Load ellam pochu anna.
+
+Durai nods.
+
+**DURAI**
+
+Unakku onnum aagala la?
+
+The driver shakes his head.
+
+Durai nods.
+
+**DURAI**
+
+Appo parava illa.
+
+Kavin is standing nearby.
+
+He is angry.
+
+**KAVIN**
+
+Anna... idhu summa vida mudiyuma?
+
+Durai looks at him.
+
+**DURAI**
+
+Enna panna pora?
+
+Kavin doesn't answer.
+
+Durai stands.
+
+**DURAI**
+
+Flowers-a adichirukkaanga.
+
+Beat.
+
+**DURAI**
+
+Manushan-a illa.
+
+Kavin looks at him.
+
+**DURAI**
+
+Adhukku manushan mela kai vaikka koodadhu.
+
+Silence.
+
+Kavin understands.
+
+But he is still angry.
+
+Durai turns toward the ruined flowers outside.
+
+**DURAI**
+
+Naalaikku market-ku poi sollu.
+
+**KAVIN**
+
+Enna?
+
+Durai looks at him.
+
+**DURAI**
+
+Yaarum kaasu kudukka vendaam.
+
+Beat.
+
+**DURAI**
+
+Inimey flower business-ku bayam vechu tax poda mudiyadhu.
+
+Kavin nods.
+
+---
+
+### INT. MAARAN'S OFFICE — NIGHT
+
+Maaran sits at a table.
+
+A man stands in front of him.
+
+**MAN**
+
+Load stop pannitom.
+
+Maaran looks up.
+
+**MAARAN**
+
+Durai?
+
+**MAN**
+
+Onnum pannala.
+
+Maaran smiles.
+
+**MAARAN**
+
+Onnum pannalaya?
+
+The man nods.
+
+Maaran leans back.
+
+**MAARAN**
+
+Avan enna sonnaan?
+
+**MAN**
+
+“Flowers-a adichirukkaanga. Manushan-a illa.”
+
+Maaran laughs quietly.
+
+**MAARAN**
+
+Nalla dialogue.
+
+Beat.
+
+**MAARAN**
+
+Aana dialogue-la business nadakkaadhu.
+
+He looks toward the window.
+
+**MAARAN**
+
+Naalaikku avanukku puriya vechidu.
+
+---
+
+### EXT. BRICKFIELDS — NEXT MORNING
+
+The flower market opens.
+
+The vendors arrive.
+
+The same Maaran men are waiting.
+
+But nobody approaches them.
+
+Nobody pays.
+
+The men look around.
+
+Kavin walks past carrying flowers.
+
+He stops.
+
+Looks at them.
+
+A small smile.
+
+**KAVIN**
+
+Kaasu venuma?
+
+The men stare at him.
+
+Kavin points toward Durai's shop.
+
+**KAVIN**
+
+Anga poi kelu.
+
+Beat.
+
+**KAVIN**
+
+Avanga kuduppaanga.
+
+Kavin walks away.
+
+Across the street—
+
+Durai watches.
+
+The men look toward him.
+
+Durai doesn't move.
+
+He simply continues making a garland.
+
+### CUT TO BLACK.
+
 ---
 
 ## CLIMAX CANON — LOCKED
