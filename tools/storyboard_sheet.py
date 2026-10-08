@@ -1,7 +1,7 @@
 from PIL import Image, ImageDraw, ImageFont
 
 # ============ SHOT STATUS — update this set as gens complete ============
-DONE = {"01", "02", "03", "04", "05", "06"}
+DONE = {"01", "02", "03", "04", "05", "06", "11"}
 # ========================================================================
 
 F = lambda s, b=True: ImageFont.truetype(f"/usr/share/fonts/truetype/dejavu/DejaVuSans{'-Bold' if b else ''}.ttf", s)
