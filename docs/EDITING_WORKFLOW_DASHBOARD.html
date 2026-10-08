@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KURAI ILLA, DURAI — Editing Workflow Dashboard</title>
+<style>
+  :root{
+    --bg:#0d0d12; --card:#16161d; --card2:#1b1b24; --line:#2a2a36;
+    --gold:#d4af37; --green:#46b46e; --orange:#eb9632; --blue:#5a96e6;
+    --red:#d24a4a; --txt:#f0f0f0; --mut:#9696a0; --dim:#6a6a78;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',system-ui,-apple-system,sans-serif}
+  body{background:var(--bg);color:var(--txt);padding:28px 16px 60px;max-width:860px;margin:0 auto}
+
+  .hdr{margin-bottom:26px}
+  .hdr h1{font-size:30px;color:var(--gold);letter-spacing:1px}
+  .hdr .sub{color:var(--mut);font-size:13px;margin-top:6px;letter-spacing:2px;text-transform:uppercase}
+  .hdr .meta{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap}
+  .pill{font-size:11px;font-weight:700;padding:5px 12px;border-radius:999px;letter-spacing:.5px}
+  .p-gold{background:rgba(212,175,55,.15);color:var(--gold);border:1px solid rgba(212,175,55,.4)}
+  .p-green{background:rgba(70,180,110,.15);color:var(--green);border:1px solid rgba(70,180,110,.4)}
+  .p-blue{background:rgba(90,150,230,.15);color:var(--blue);border:1px solid rgba(90,150,230,.4)}
+  .p-orange{background:rgba(235,150,50,.15);color:var(--orange);border:1px solid rgba(235,150,50,.4)}
+
+  .golden{background:linear-gradient(135deg,rgba(212,175,55,.12),rgba(212,175,55,.04));
+    border:1px solid rgba(212,175,55,.45);border-radius:14px;padding:16px 20px;margin-bottom:28px;
+    font-size:14px;color:var(--gold);font-weight:600;letter-spacing:.3px}
+  .golden span{color:var(--mut);font-weight:400;display:block;margin-top:4px;font-size:12.5px}
+
+  /* workflow rail */
+  .flow{position:relative;padding-left:46px}
+  .flow::before{content:"";position:absolute;left:17px;top:8px;bottom:8px;width:2px;
+    background:linear-gradient(var(--gold),var(--line) 85%)}
+  .node{position:relative;margin-bottom:22px}
+  .node::before{content:attr(data-n);position:absolute;left:-46px;top:0;width:36px;height:36px;
+    border-radius:50%;background:var(--card2);border:2px solid var(--gold);color:var(--gold);
+    font-weight:800;font-size:15px;display:flex;align-items:center;justify-content:center;z-index:2}
+  .node.done::before{background:var(--green);border-color:var(--green);color:#08140c;content:"✓"}
+
+  details{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+  details[open]{border-color:rgba(212,175,55,.35)}
+  summary{cursor:pointer;padding:16px 18px;display:flex;align-items:center;gap:12px;list-style:none;user-select:none}
+  summary::-webkit-details-marker{display:none}
+  summary .t{font-size:16px;font-weight:700;flex:1}
+  summary .arrow{color:var(--dim);transition:transform .2s;font-size:12px}
+  details[open] summary .arrow{transform:rotate(90deg)}
+  .body{padding:4px 18px 18px;border-top:1px solid var(--line)}
+
+  table{width:100%;border-collapse:collapse;margin:12px 0;font-size:12.5px}
+  th{color:var(--gold);text-align:left;padding:8px 8px;border-bottom:1px solid var(--line);
+     font-size:10.5px;letter-spacing:1px;text-transform:uppercase}
+  td{padding:8px;border-bottom:1px solid rgba(42,42,54,.5);color:var(--txt);vertical-align:top}
+  td.mut{color:var(--mut)} tr:last-child td{border-bottom:none}
+  .tag{display:inline-block;font-size:10px;font-weight:800;padding:2px 8px;border-radius:6px;letter-spacing:.5px}
+  .tg{background:var(--green);color:#08140c}.to{background:var(--orange);color:#1c1206}
+  .tb{background:var(--blue);color:#0a1322}.tr{background:var(--red);color:#fff}.tgold{background:var(--gold);color:#1a1405}
+
+  .step{display:flex;gap:12px;padding:9px 0;border-bottom:1px solid rgba(42,42,54,.5);font-size:13.5px;align-items:flex-start}
+  .step:last-child{border-bottom:none}
+  .step .n{min-width:24px;height:24px;border-radius:7px;background:var(--card2);border:1px solid var(--line);
+    color:var(--gold);font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:1px}
+  .step b{color:var(--gold)}
+  .note{background:var(--card2);border-left:3px solid var(--orange);border-radius:0 8px 8px 0;
+    padding:10px 14px;margin:10px 0;font-size:12.5px;color:var(--mut)}
+  .note b{color:var(--orange)}
+  .note.g{border-left-color:var(--green)}.note.g b{color:var(--green)}
+  .note.gd{border-left-color:var(--gold)}.note.gd b{color:var(--gold)}
+
+  .qc{margin-top:12px;background:var(--card2);border:1px dashed rgba(212,175,55,.35);border-radius:10px;padding:12px 14px}
+  .qc h4{font-size:11px;color:var(--gold);letter-spacing:1.5px;margin-bottom:8px}
+  .chk{display:flex;gap:10px;align-items:flex-start;padding:5px 0;font-size:13px;color:var(--mut);cursor:pointer}
+  .chk input{accent-color:var(--gold);margin-top:2px;cursor:pointer}
+  .chk input:checked+span{color:var(--green);text-decoration:line-through}
+
+  .recipe{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+  .slice{background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:8px 10px;
+    font-size:11px;text-align:center;flex:1;min-width:86px}
+  .slice b{display:block;color:var(--gold);font-size:12px;margin-bottom:2px}
+  .slice.blk{background:#000;border-color:var(--red)} .slice.blk b{color:var(--red)}
+
+  .ftr{margin-top:30px;text-align:center;color:var(--dim);font-size:11.5px;letter-spacing:1px;line-height:1.9}
+  .ftr b{color:var(--gold)}
+  .prog{margin-top:10px;background:var(--card);border:1px solid var(--line);border-radius:999px;height:10px;overflow:hidden}
+  .prog i{display:block;height:100%;width:65%;background:linear-gradient(90deg,var(--green),var(--gold))}
+</style>
+</head>
+<body>
+
+<div class="hdr">
+  <h1>✂️ EDITING WORKFLOW</h1>
+  <div class="sub">Kurai Illa, Durai · 60s Trailer · CapCut Pipeline · Directed by DR</div>
+  <div class="meta">
+    <span class="pill p-gold">9:16 · 1080×1920 · 30FPS</span>
+    <span class="pill p-green">FOOTAGE 11/17</span>
+    <span class="pill p-orange">GENS PENDING: 08 · 09 · 15 · 16A · 16B</span>
+    <span class="pill p-blue">EDITOR: DR</span>
+  </div>
+  <div class="prog"><i></i></div>
+</div>
+
+<div class="golden">⚖️ HOUSE RULE: LOCK PICTURE FIRST → AUDIO → GRADE → SUBS → EXPORT
+  <span>Never grade or subtitle a timeline that is still moving. Each phase has a QC gate — pass it before moving on.</span>
+</div>
+
+<div class="flow">
+
+<!-- PHASE 0 -->
+<div class="node" data-n="0">
+<details>
+  <summary><span class="t">📦 GATHER ASSETS</span><span class="pill p-blue">PREP</span><span class="arrow">▶</span></summary>
+  <div class="body">
+    <table>
+      <tr><th>Asset</th><th>Source</th><th>Note</th></tr>
+      <tr><td>All shot MP4s</td><td class="mut">Drive → footage/</td><td class="mut">Download every clip to phone</td></tr>
+      <tr><td>Durai VO narration (10.03s)</td><td class="mut">repo durai_voice/</td><td class="mut">Spine of Act 1 + title smash</td></tr>
+      <tr><td>Maaran lines</td><td class="mut">repo maaran_final/</td><td class="mut">VO over Shot 14</td></tr>
+      <tr><td>Kavin line (fitted 6.00s)</td><td class="mut">repo final_cast/</td><td class="mut">Shot 04</td></tr>
+      <tr><td>SFX ×6 (rain·city·truck·beeps·birds·whoosh)</td><td class="mut">repo sfx/</td><td class="mut">Hits & beds</td></tr>
+      <tr><td>Trailer music 60s+ dark percussion</td><td class="mut">CapCut Audio</td><td class="mut">Pick ONE track</td></tr>
+      <tr><td>Title card + motion titles</td><td class="mut">repo posters/ · motion_titles/</td><td class="mut">Blend: Screen</td></tr>
+    </table>
+    <div class="qc"><h4>✋ GATE 0</h4>
+      <label class="chk"><input type="checkbox"><span>All 17 slots have their media on the phone</span></label>
+      <label class="chk"><input type="checkbox"><span>Music track chosen (dark hybrid, has a big drop)</span></label>
+    </div>
+  </div>
+</details>
+</div>
+
+<!-- PHASE 1 -->
+<div class="node" data-n="1">
+<details>
+  <summary><span class="t">⚙️ PROJECT SETUP</span><span class="pill p-blue">2 MIN</span><span class="arrow">▶</span></summary>
+  <div class="body">
+    <div class="step"><div class="n">1</div><div>New project → <b>9:16</b> → <b>1080×1920</b> → <b>30fps</b> (footage is 24fps — let CapCut conform, do NOT "speed match")</div></div>
+    <div class="step"><div class="n">2</div><div>Tracks: <b>V1</b> picture · <b>V2</b> stills/titles · <b>A1</b> VO+dialogue · <b>A2</b> music · <b>A3</b> SFX hits · <b>A4</b> ambience</div></div>
+    <div class="step"><div class="n">3</div><div>Timeline <b>Snap ON</b> — every cut lands on the grid</div></div>
+  </div>
+</details>
+</div>
+
+<!-- PHASE 2 -->
+<div class="node" data-n="2">
+<details open>
+  <summary><span class="t">🎞️ PICTURE LOCK — Master Cut Sheet</span><span class="pill p-gold">THE CORE</span><span class="arrow">▶</span></summary>
+  <div class="body">
+    <table>
+      <tr><th>#</th><th>Slot</th><th>Shot</th><th>Trim / Build</th><th>Note</th></tr>
+      <tr><td><span class="tag tg">01</span></td><td class="mut">0:00–0:04</td><td>COLD OPEN</td><td>as delivered 4.0s</td><td class="mut">LOCKED — approved, don't touch</td></tr>
+      <tr><td><span class="tag tg">02</span></td><td class="mut">0:04–0:07</td><td>THE HANDS</td><td>0.0 → 3.0s</td><td class="mut">Watermark already removed</td></tr>
+      <tr><td><span class="tag tg">03</span></td><td class="mut">0:07–0:10</td><td>DURAI REVEAL</td><td>2.06 → 5.06s</td><td class="mut">Eyes come up last</td></tr>
+      <tr><td><span class="tag tg">04</span></td><td class="mut">0:10–0:14</td><td>KAVIN</td><td>0.2 → 4.2s</td><td class="mut">Dialogue clip</td></tr>
+      <tr><td><span class="tag to">05</span></td><td class="mut">0:14–0:18</td><td>TEN YEARS</td><td>hand-take only · <b style="color:var(--orange)">70% slow</b></td><td class="mut">SALVAGE: in ≈1s before contact; optical-flow ON</td></tr>
+      <tr><td><span class="tag to">06</span></td><td class="mut">0:18–0:22</td><td>JOHOR ARRIVES</td><td>beats 1+3 only</td><td class="mut">SURGERY: delete maroon middle, butt-join = style</td></tr>
+      <tr><td><span class="tag tb">07</span></td><td class="mut">0:22–0:26</td><td>THE PACKAGE</td><td>still s3_D + zoom 100→108%</td><td class="mut">EDIT shot · subtle blur keyframe = rack focus</td></tr>
+      <tr><td><span class="tag to">08</span></td><td class="mut">0:26–0:30</td><td>THE LINE</td><td>best 4s of stare</td><td class="mut">🟠 generating</td></tr>
+      <tr><td><span class="tag to">09</span></td><td class="mut">0:30–0:34</td><td>RAHIM</td><td>slide → taps → nod</td><td class="mut">Cut ON the nod · 🟠 pending</td></tr>
+      <tr><td><span class="tag tg">10</span></td><td class="mut">0:34–0:39</td><td>LORRY ATTACK</td><td><b style="color:var(--green)">FULL 5.0s</b></td><td class="mut">Optional 60% slow on garland fall 0.8–2.0s</td></tr>
+      <tr><td><span class="tag tg">11</span></td><td class="mut">0:39–0:43</td><td>STILL MAN</td><td>2.2 → 5.0s</td><td class="mut">THE HEART — eyes rise</td></tr>
+      <tr><td><span class="tag tg">12</span></td><td class="mut">0:43–0:47</td><td>DURAI MOVES</td><td>0.0 → 3.4s</td><td class="mut">End ON the buckle (alt: 4.4s arm-lock)</td></tr>
+      <tr><td><span class="tag tg">13</span></td><td class="mut">0:47–0:51</td><td>KAVIN'S SECRET</td><td>0.3 → 5.06s</td><td class="mut">KEEP 4.9s bulb-dim = free cut-to-black</td></tr>
+      <tr><td><span class="tag tg">14</span></td><td class="mut">0:51–0:54</td><td>MAARAN RAGES</td><td>best 3s of the rise</td><td class="mut">End on cold upright stare</td></tr>
+      <tr><td><span class="tag to">15</span></td><td class="mut">0:54–0:56</td><td>BIGGER SHADOW</td><td>cleanest 2s around tap</td><td class="mut">🟠 pending</td></tr>
+      <tr><td><span class="tag to">16</span></td><td class="mut">0:56–0:58</td><td>FINAL COLLISION</td><td>5× 0.4s micro-cuts</td><td class="mut">Recipe below · 🟠 pending ×2</td></tr>
+      <tr><td><span class="tag tb">17</span></td><td class="mut">0:58–1:00</td><td>TITLE SMASH</td><td>2 black frames → card 130→100% in 3fr</td><td class="mut">Hold to exactly 1:00.0</td></tr>
+    </table>
+
+    <div class="note gd"><b>SHOT 16 COLLISION RECIPE</b> — raw butt-cuts, no transitions. Speed IS the violence:</div>
+    <div class="recipe">
+      <div class="slice"><b>16A · 0.4s</b>ropes/sleeve</div>
+      <div class="slice"><b>16B · 0.4s</b>Maaran looks up</div>
+      <div class="slice"><b>16A · 0.4s</b>smile DIES</div>
+      <div class="slice"><b>16B · 0.4s</b>head tilt down</div>
+      <div class="slice"><b>16A · 0.4s</b>step forward</div>
+      <div class="slice blk"><b>BLACK</b>→ title</div>
+    </div>
+
+    <div class="qc"><h4>✋ GATE 2 — PICTURE LOCK</h4>
+      <label class="chk"><input type="checkbox"><span>Timeline = exactly 60.0s</span></label>
+      <label class="chk"><input type="checkbox"><span>No auto-inserted transitions (check every joint)</span></label>
+      <label class="chk"><input type="checkbox"><span>Watched once MUTED — story reads silent</span></label>
+    </div>
+  </div>
+</details>
+</div>
+
+<!-- PHASE 3 -->
+<div class="node" data-n="3">
+<details>
+  <summary><span class="t">🔊 AUDIO BUILD</span><span class="pill p-gold">4 LAYERS</span><span class="arrow">▶</span></summary>
+  <div class="body">
+    <div class="note g"><b>BUILD ORDER:</b> A1 VO/dialogue (spine) → A2 music (engine) → A4 ambience (world) → A3 hits (punches, LAST on top). Dialogue = king; everything ducks under it.</div>
+
+    <table>
+      <tr><th>Line / VO</th><th>Lands at</th></tr>
+      <tr><td>Durai narration pt.1</td><td class="mut">VO in ≈0:04.4 over THE HANDS (same as approved preview)</td></tr>
+      <tr><td>Kavin intro line</td><td class="mut">Shot 04 · trim tail to slot</td></tr>
+      <tr><td>"Naan Maaran illa. Idhu Brickfields."</td><td class="mut">Shot 08 · "Idhu Brickfields" in FINAL second → hard cut</td></tr>
+      <tr><td>"Monthly."</td><td class="mut">Shot 09 · exactly on the finger taps</td></tr>
+      <tr><td>"…idhu Durai anna oda load." / "Theriyum."</td><td class="mut">Shot 10 · "Theriyum" as camera reaches dead jasmine</td></tr>
+      <tr><td>"Manushan-a illa…"</td><td class="mut">Shot 11 · as the eyes rise</td></tr>
+      <tr><td>Maaran: "Durai-a touch panna sollala naan…"</td><td class="mut">Shot 14 · pure VO (no lip movement by design)</td></tr>
+      <tr><td>"Kurai illa… Durai."</td><td class="mut">Shot 17 · over black + title. THE button.</td></tr>
+    </table>
+
+    <table>
+      <tr><th>SFX Hit</th><th>Timecode</th><th>Note</th></tr>
+      <tr><td>Whoosh per cold-open flash</td><td class="mut">0:00–0:04</td><td class="mut">Whoosh peaks 0.55s in → start file 0.55s BEFORE cut</td></tr>
+      <tr><td>Bass hit</td><td class="mut">0:14</td><td class="mut">Ten-years match cut</td></tr>
+      <tr><td>Truck rumble</td><td class="mut">0:18</td><td class="mut">Johor arrives</td></tr>
+      <tr><td>💥 Bass + whip</td><td class="mut"><b style="color:var(--gold)">0:44.8</b></td><td class="mut">The wrist CATCH — money hit</td></tr>
+      <tr><td>Sub-bass swell + UI tick</td><td class="mut">0:54</td><td class="mut">Shadow tap frame</td></tr>
+      <tr><td>5× impacts</td><td class="mut">0:56–0:58</td><td class="mut">One per 0.4s collision cut</td></tr>
+      <tr><td>Title smash → SILENCE</td><td class="mut">0:58</td><td class="mut">Biggest hit, then nothing</td></tr>
+    </table>
+
+    <div class="note"><b>MUSIC MAP:</b> one track 0:00→1:00 at ~30% under VO · slide track until its natural DROP lands at <b>0:34 (lorry)</b> · escalate 0:47→0:58 · <b>MUSIC OUT dead at 0:58</b> — title plays in silence + VO. Silence = power.</div>
+    <div class="note g"><b>AMBIENCE (~25%):</b> rain → 10, 12 · city night → 13, 15 · market murmur → 02, 05, 08, 09 · crossfade 0.5s · felt, never heard.</div>
+
+    <div class="qc"><h4>✋ GATE 3 — AUDIO</h4>
+      <label class="chk"><input type="checkbox"><span>Eyes-closed watch — works as radio drama</span></label>
+      <label class="chk"><input type="checkbox"><span>No VO word masked by a hit · nothing clipping</span></label>
+      <label class="chk"><input type="checkbox"><span>Phone-speaker test passed</span></label>
+    </div>
+  </div>
+</details>
+</div>
+
+<!-- PHASE 4 -->
+<div class="node" data-n="4">
+<details>
+  <summary><span class="t">🎨 GRADE & POLISH</span><span class="pill p-blue">ONE LOOK</span><span class="arrow">▶</span></summary>
+  <div class="body">
+    <div class="step"><div class="n">1</div><div><b>Global teal-orange</b> — match the approved ACT1 preview grade (reference)</div></div>
+    <div class="step"><div class="n">2</div><div>Day shots (02·05·08·09) slightly warm · night shots (10·12·13·15) teal shadows + sodium highlights</div></div>
+    <div class="step"><div class="n">3</div><div>Scrub full timeline at 2× — <b>skin tones must not jump</b> between cuts</div></div>
+    <div class="step"><div class="n">4</div><div>Film grain 5–10% over everything (unifies AI footage) · vignette ≤15% night shots only</div></div>
+    <div class="step"><div class="n">5</div><div><b>NO</b> glow / bloom / beauty filters — kills realism</div></div>
+  </div>
+</details>
+</div>
+
+<!-- PHASE 5 -->
+<div class="node" data-n="5">
+<details>
+  <summary><span class="t">💬 SUBTITLES & TITLES</span><span class="pill p-orange">CANON LAW</span><span class="arrow">▶</span></summary>
+  <div class="body">
+    <div class="note gd"><b>NON-NEGOTIABLE:</b> "anna" / "thambi" NEVER translated as father/son. Keep anna/thambi or "big brother".</div>
+    <div class="step"><div class="n">1</div><div>Thanglish as written · pick ONE sub style (dual or English-only) · keep consistent all 60s</div></div>
+    <div class="step"><div class="n">2</div><div>Bold clean sans · white + thin black outline · bottom third · safe from TikTok/CapCut UI zones</div></div>
+    <div class="step"><div class="n">3</div><div>Max 2 lines · min 1s on screen · out BEFORE the cut, never ride across it</div></div>
+    <div class="step"><div class="n">4</div><div>Motion titles → V2 → Blend <b>Screen</b> · end card holds 0:58–1:00 alone</div></div>
+  </div>
+</details>
+</div>
+
+<!-- PHASE 6 -->
+<div class="node" data-n="6">
+<details>
+  <summary><span class="t">📤 EXPORT & FINAL QC</span><span class="pill p-green">SHIP IT</span><span class="arrow">▶</span></summary>
+  <div class="body">
+    <table>
+      <tr><th>Setting</th><th>Value</th></tr>
+      <tr><td>Resolution / FPS</td><td class="mut">1080×1920 · 30fps</td></tr>
+      <tr><td>Codec / Bitrate</td><td class="mut">H.264 · Highest · HDR OFF</td></tr>
+    </table>
+    <div class="qc"><h4>✋ FINAL GATE — QC the EXPORT FILE, not the timeline</h4>
+      <label class="chk"><input type="checkbox"><span>Duration exactly 1:00</span></label>
+      <label class="chk"><input type="checkbox"><span>Phone watch · full brightness · volume 50%</span></label>
+      <label class="chk"><input type="checkbox"><span>Muted watch (picture) + eyes-closed watch (audio)</span></label>
+      <label class="chk"><input type="checkbox"><span>4-corner check: no watermarks / UI / readable signage or plates</span></label>
+      <label class="chk"><input type="checkbox"><span>Subtitle pass: zero typos · anna-thambi correct</span></label>
+      <label class="chk"><input type="checkbox"><span>3 kill-shots hit: 0:34 lorry · 0:44.8 catch · 0:58 smash</span></label>
+      <label class="chk"><input type="checkbox"><span>Cold viewer asks "when's the full film?" → 🚀 SHIP</span></label>
+    </div>
+  </div>
+</details>
+</div>
+
+</div><!-- /flow -->
+
+<div class="ftr">
+  REPO = SOURCE OF TRUTH · DRIVE = DELIVERY MIRROR · <b>DIRECTOR DR</b> EDITS · AGENT QCs<br>
+  🥀 <b>KURAI ILLA, DURAI</b> · CHAPTER 1 · MALAYSIAN INDIAN TAMIL DRAMA
+</div>
+
+</body>
+</html>
