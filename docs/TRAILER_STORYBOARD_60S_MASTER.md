@@ -6,7 +6,7 @@
 
 ## 💰 THE ONE-BUDGET RULE
 The trailer is cut from the **13 film hero generations** (already locked, RM19.60) plus:
-- **3 TRAILER-ONLY gens** (T1, T2, T3) = 90cr = **one weekly pass RM4.90**
+- **2 TRAILER-ONLY gens** (T2, T3) = 60cr = **under one weekly pass RM4.90** (T1 replaced by 0cr cold open)
 - **1 EXISTING video** (Kavin intro, 6.04s — already made, 0cr)
 - **Stills + edit beats** (flash cuts, rack-focus pans in CapCut, title cards — 0cr)
 
@@ -24,7 +24,7 @@ The trailer is cut from the **13 film hero generations** (already locked, RM19.6
 
 | # | Time | Beat | Source | Panel ref |
 |---|---|---|---|---|
-| 01 | 0:00–0:04 | BRICKFIELDS WAKES | 🟠 T-GEN 1 | refs/brickfields_street.jpg |
+| 01 | 0:00–0:04 | COLD OPEN (no gen) | 🔵 EDIT: black + sound + still flashes | refs/brickfields_street.jpg |
 | 02 | 0:04–0:07 | THE HANDS | 🟢 FILM: S1 dawn reveal | s1_A |
 | 03 | 0:07–0:10 | DURAI REVEAL | 🟢 FILM: S1 reveal tail | durai_reveal_poster |
 | 04 | 0:10–0:14 | KAVIN | 🔵 EXISTING Kavin intro video | intro_shot_kavin_v2 |
@@ -46,7 +46,7 @@ The trailer is cut from the **13 film hero generations** (already locked, RM19.6
 
 ## SHOT DIRECTION (condensed from DR's board — camera grammar preserved)
 
-**01 BRICKFIELDS WAKES** 🟠 T-GEN 1 — Locked-off street level, wet asphalt, flower lorry enters deep background; slow 5m backward dolly; flower basket passes close to lens as natural wipe revealing jasmine stalls. Sodium dawn light. Audio: lorry engine, reverse beeper, birds, metal baskets.
+**01 COLD OPEN** 🔵 EDIT 0cr — BLACK SCREEN. Audio fades in first: rain drip, lorry engine, reverse beeper, metal baskets, birds. Two quick still flashes of Brickfields street (0.5s each, subtle flicker/exposure pulse in CapCut) — sound establishes the world, stills only tease it. Hard cut to Shot 02. NO generation needed.
 
 **02 THE HANDS** 🟢 — Extreme macro on Durai's weathered hands; slow 20cm push-in; tiny clockwise arc at 2s; thread pulls tight; cuts thread with teeth. Hard cut before face. VO: *"Naan Durai."*
 

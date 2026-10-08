@@ -11,7 +11,7 @@ BG=(13,13,18); CARD=(22,22,29)
 
 TB="trailer_board/"; SV="scenes_v4/"
 panels=[
- ("01","0:00-0:04","BRICKFIELDS WAKES","refs/brickfields_street.jpg","T-GEN 1",ORANGE,"Dawn dolly - lorry arrives"),
+ ("01","0:00-0:04","COLD OPEN","refs/brickfields_street.jpg","EDIT 0cr",BLUE,"Black + sound - still flashes"),
  ("02","0:04-0:07","THE HANDS",TB+"s1_A_hands_jasmine_dawn.png","FILM GEN",GREEN,'Macro push-in - "Naan Durai."'),
  ("03","0:07-0:10","DURAI REVEAL",TB+"durai_reveal_poster.png","FILM GEN",GREEN,"Lateral track - eyes up last"),
  ("04","0:10-0:14","KAVIN",TB+"intro_kavin.png","EXISTING VID",BLUE,'"Enna, anna-ku attendance...?"'),
@@ -44,7 +44,7 @@ for tag,col in [("FILM GEN 0cr",GREEN),("T-GEN 30cr",ORANGE),("EDIT 0cr",BLUE)]:
     d.rounded_rectangle([lx,95,lx+34,117],6,fill=col)
     d.text((lx+44,96),tag,font=F(24),fill=WHITE); lx+=d.textlength(tag,font=F(24))+90
 n_done=len(DONE)
-d.text((W-M-1060,140),f"SHOT PROGRESS: {n_done}/17  ·  EXTRA COST: 3 x 30cr = RM4.90",font=F(26),fill=GOLD)
+d.text((W-M-1060,140),f"SHOT PROGRESS: {n_done}/17  ·  EXTRA COST: 2 x 30cr = 60cr",font=F(26),fill=GOLD)
 d.line([M,HDR-18,W-M,HDR-18],fill=(60,60,70),width=2)
 
 def crop_fit(p,w,h):
@@ -76,7 +76,7 @@ x=M+5*(PW+GAP); y=HDR+2*(TH+CH+GAP)
 d.rounded_rectangle([x,y,x+PW,y+TH+CH],10,fill=(26,20,20),outline=RED,width=3)
 cy=y+34
 d.text((x+28,cy),"ONE-BUDGET RULE",font=F(32),fill=RED); cy+=70
-for ln in ["13 film hero gens","   = trailer backbone","   (pay once, use twice)","3 trailer-only gens","   T1 dawn street","   T2 Durai wrist catch","   T3 Maaran rage","Kavin intro vid = 0cr","Stills + titles = 0cr","","TRAILER EXTRA COST:","90cr  =  RM4.90"]:
+for ln in ["13 film hero gens","   = trailer backbone","   (pay once, use twice)","2 trailer-only gens","   T2 Durai wrist catch","   T3 Maaran rage","Cold open stills = 0cr","Kavin intro vid = 0cr","Stills + titles = 0cr","","TRAILER EXTRA COST:","60cr = still RM4.90"]:
     f=F(30) if "RM4.90" in ln or "COST" in ln else F(26,False)
     d.text((x+28,cy),ln,font=f,fill=GOLD if ("RM" in ln or "COST" in ln) else WHITE); cy+=38
 
