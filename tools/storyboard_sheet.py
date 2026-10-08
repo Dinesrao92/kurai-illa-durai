@@ -9,22 +9,22 @@ GOLD=(212,175,55); RED=(200,40,40); WHITE=(240,240,240); GRAY=(150,150,158)
 GREEN=(70,180,110); ORANGE=(235,150,50); BLUE=(90,150,230)
 BG=(13,13,18); CARD=(22,22,29)
 
-TB="trailer_board/"; SV="scenes_v4/"
+TB="scenes_v4/"; SV="scenes_v4/"
 panels=[
  ("01","0:00-0:04","COLD OPEN","refs/brickfields_street.jpg","EDIT 0cr",BLUE,"Black + sound - still flashes"),
  ("02","0:04-0:07","THE HANDS",TB+"s1_A_hands_jasmine_dawn.png","FILM GEN",GREEN,'Macro push-in - "Naan Durai."'),
- ("03","0:07-0:10","DURAI REVEAL",TB+"durai_reveal_poster.png","FILM GEN",GREEN,"Lateral track - eyes up last"),
- ("04","0:10-0:14","KAVIN",TB+"intro_kavin.png","EXISTING VID",BLUE,'"Enna, anna-ku attendance...?"'),
+ ("03","0:07-0:10","DURAI REVEAL","posters/durai_reveal_poster.png","FILM GEN",GREEN,"Lateral track - eyes up last"),
+ ("04","0:10-0:14","KAVIN","keep/ref_kavin.png","EXISTING VID",BLUE,'"Enna, anna-ku attendance...?"'),
  ("05","0:14-0:18","TEN YEARS",TB+"s2_E_montage_garland_teaching.png","FILM GEN",GREEN,"Match cut - Pathu varusham"),
  ("06","0:18-0:22","JOHOR ARRIVES",TB+"s3_B_maaran_entrance.png","FILM GEN",GREEN,"Wheel > shoe > crane up"),
  ("07","0:22-0:26","THE PACKAGE",TB+"s3_D_packet_smile.png","EDIT 0cr",BLUE,"Rack focus packet > jasmine"),
  ("08","0:26-0:30","THE LINE",TB+"s1_E_idhu_brickfields_stare.png","FILM GEN",GREEN,'"Naan Maaran illa. Idhu Brickfields."'),
  ("09","0:30-0:34","RAHIM'S SHOP",TB+"s4_G_durai_rahim_envelope.png","FILM GEN",GREEN,'Envelope lands - "Monthly."'),
- ("10","0:34-0:39","LORRY ATTACK",TB+"s5_E_lorry_ambush.png","FILM GEN",GREEN,"Brake whip - petals scatter"),
+ ("10","0:34-0:39","LORRY ATTACK",SV+"s5_F_flowers_in_mud.png","FILM GEN",GREEN,"Brake whip - petals scatter"),
  ("11","0:39-0:43","THE STILL MAN",TB+"s5_J_durai_unmoved_stare.png","FILM GEN",GREEN,'"Manushan-a illa..." THE HEART'),
- ("12","0:43-0:47","DURAI MOVES",SV+"s11_A_wrist_catch.png","T-GEN 2",ORANGE,"One wrist catch - walks past"),
- ("13","0:47-0:51","KAVIN'S SECRET",SV+"s8_C_lights_on_aftermath.png","FILM GEN",GREEN,"One eye visible - CUT TO BLACK"),
- ("14","0:51-0:54","MAARAN RAGES",TB+"intro_maaran.png","T-GEN 3",ORANGE,"Glass shatters - real anger"),
+ ("12","0:43-0:47","DURAI MOVES",SV+"s6_F_durai_moves_ref.png","T-GEN 2",ORANGE,"One wrist catch - walks past"),
+ ("13","0:47-0:51","KAVIN'S SECRET",SV+"s8_D_kavins_secret_ref.png","FILM GEN",GREEN,"One eye visible - CUT TO BLACK"),
+ ("14","0:51-0:54","MAARAN RAGES",SV+"s9_E_maaran_rage_ref.png","T-GEN 3",ORANGE,"Glass shatters - real anger"),
  ("15","0:54-0:56","BIGGER SHADOW",SV+"s12_H_mysterious_man.png","FILM GEN",GREEN,"Hand + phone only - NO FACE"),
  ("16","0:56-0:58","FINAL COLLISION",SV+"s12_B_ropes_fall.png","FILM GEN",GREEN,"0.4s cuts - cause > effect"),
  ("17","0:58-1:00","TITLE SMASH","posters/final_cast_poster_v3.png","EDIT 0cr",BLUE,'"Kurai illa... Durai."'),
