@@ -122,3 +122,23 @@ Save pannunga, share pannunga, friend tag pannunga 👇
 - Pin a comment: "Part 2 venuma? 🔥 like podunga"
 - Consistent posting > perfect posting: 1 character card every 2-3 days, then the full episode
 ```
+
+---
+
+## 🎬 TEASER v1 — TikTok + Instagram (same caption)
+
+**Brickfields-la oru raja irukkaru. Aana avar crown podarathu illa — jasmine thaan. 🥀**
+
+He sells flowers by day. His name does the rest.
+Maaran came from Johor to take these streets. He should've asked one question first... *whose streets are these?* 💀
+
+**KURAI ILLA, DURAI — Chapter 1 · TEASER OUT NOW** 🎬
+Full film coming soon.
+
+🇲🇾 Malaysian Indian Tamil Drama
+📍 Brickfields, Kuala Lumpur
+🎥 Directed by DR
+
+#KuraiIllaDurai #MalaysianTamil #TamilDrama #Brickfields #KualaLumpur #TamilShortFilm #Thanglish #IndianMalaysian #TamilCinema #ComingSoon #Machas #AIFilm #fyp
+
+*Post 7–10pm MY · pin comment: "Chapter 1 full film loading... 🔜"*
